@@ -4,137 +4,142 @@
     <title>Vinicius Botelho Awada's Resume</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #f8f8f8;
+            color: #444;
+            line-height: 1.6;
         }
         .container {
             width: 80%;
-            margin: auto;
-            overflow: hidden;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
         }
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
+        h1, h2, h3 {
+            color: #333;
         }
-        header a {
-            color: #ffffff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
         }
-        header ul {
-            padding: 0;
-            margin: 0;
+        h2 {
+            font-size: 24px;
+            border-bottom: 2px solid #e8491d;
+            padding-bottom: 5px;
+            margin: 20px 0;
+        }
+        h3 {
+            font-size: 20px;
+            margin: 15px 0;
+        }
+        ul {
             list-style: none;
-            overflow: hidden;
+            padding: 0;
         }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
+        ul li {
+            margin-bottom: 10px;
         }
-        header #branding {
-            float: left;
+        p {
+            margin: 10px 0;
         }
-        header #branding h1 {
-            margin: 0;
+        .contact-info {
+            margin-bottom: 30px;
         }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        header .highlight, header .current a {
-            color: #e8491d;
-            font-weight: bold;
-        }
-        header a:hover {
-            color: #ffffff;
-            font-weight: bold;
-        }
-        .resume {
-            padding: 15px;
-            background: #ffffff;
-            margin-top: 15px;
-            border: 1px solid #e6e6e6;
-        }
-        .resume h2, .resume h3 {
-            color: #35424a;
-        }
-        .resume p {
-            margin-bottom: 15px;
-        }
-        .resume ul {
-            list-style: square;
-            margin-left: 20px;
+        .contact-info p {
+            font-style: italic;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">Vinicius Botelho</span> Awada</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
     <div class="container">
-        <div class="resume">
+        <header>
+            <h1>Vinicius Botelho Awada</h1>
+            <div class="contact-info">
+                <p>Email: vbawada@gmail.com</p>
+                <p>Phone: +55 (11) 9 6972-8877</p>
+                <p>Location: São Paulo, Brazil</p>
+            </div>
+        </header>
+
+        <section>
             <h2>Professional Summary</h2>
             <p>A .NET developer specializing in C#, ASP.NET Core, JavaScript, and SQL Server with a focus on back-end development. Experience in various projects and companies, skilled in creating RESTful APIs, web applications, and maintaining SQL routines. Successfully designed and implemented a digital system for a college. Pursuing an MBA in Architecture and Development on the .NET Platform.</p>
-            
+        </section>
+
+        <section>
             <h2>Professional Goal</h2>
             <p>My current objective is to develop my programming skills while also striving to be a collaborative and valuable team member contributing my knowledge and innovative ideas to benefit the company's success.</p>
+        </section>
 
+        <section>
             <h2>Work Experience</h2>
             <ul>
-                <li><h3>.NET Software Developer - FIAP</h3><p>Nov 2021 - Present, São Paulo, Brazil</p><ul>
-                <li>Creating RESTful APIs and efficient web applications using C# and .NET.</li>
-                <li>Maintaining SQL routines and .NET Core and Framework systems.</li>
-                <li>Unit Testing with nUnit and Moq.</li>
-                <li>Using Scrum methodology.</li>
-                </ul></li>
-                <li><h3>.NET Software Developer - Função Sistemas</h3><p>Sep 2020 - Oct 2021, São Paulo</p><ul>
-                <li>Preventive and corrective maintenance on systems.</li>
-                <li>Developing and supporting credit collection and accounting systems for banking and financial institutions.</li>
-                </ul></li>
-                <li><h3>.NET Software Developer Intern - Grupo Rái</h3><p>Aug 2019 - Mar 2020, São Paulo</p></li>
+                <li>
+                    <h3>.NET Software Developer - FIAP</h3>
+                    <p>Nov 2021 - Present, São Paulo, Brazil</p>
+                    <ul>
+                        <li>Creating RESTful APIs and efficient web applications using C# and .NET.</li>
+                        <li>Maintaining SQL routines and .NET Core and Framework systems.</li>
+                        <li>Unit Testing with nUnit and Moq.</li>
+                        <li>Using Scrum methodology.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>.NET Software Developer - Função Sistemas</h3>
+                    <p>Sep 2020 - Oct 2021, São Paulo</p>
+                    <ul>
+                        <li>Preventive and corrective maintenance on systems.</li>
+                        <li>Developing and supporting credit collection and accounting systems for banking and financial institutions.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>.NET Software Developer Intern - Grupo Rái</h3>
+                    <p>Aug 2019 - Mar 2020, São Paulo</p>
+                </li>
             </ul>
+        </section>
 
+        <section>
             <h2>Education</h2>
             <ul>
-                <li><h3>MBA in Architecture and Development on the .NET Platform</h3><p>FIAP, São Paulo (May 2023 - May 2024)</p></li>
-                <li><h3>Associates in Analysis and Systems Development</h3><p>FIAP, São Paulo, Brazil (Feb 2018 - Nov 2020)</p></li>
+                <li>
+                    <h3>MBA in Architecture and Development on the .NET Platform</h3>
+                    <p>FIAP, São Paulo (May 2023 - May 2024)</p>
+                </li>
+                <li>
+                    <h3>Associates in Analysis and Systems Development</h3>
+                    <p>FIAP, São Paulo, Brazil (Feb 2018 - Nov 2020)</p>
+                </li>
             </ul>
+        </section>
 
-            <h2>Skills</h2>
-            <ul>
-                <li>API and Web Application Development: Expert in creating RESTful APIs and web applications using C# and .NET.</li>
-                <li>Database Management: Proficient in SQL routine maintenance and adept in optimizing .NET Core and Framework systems.</li>
-                <li>Testing and Quality Assurance: Skilled in unit testing with nUnit and Moq.</li>
-                <li>Agile Project Management: Practiced in employing Scrum methodology.</li>
-                <li>Languages & Frameworks: Mastery of C#, JavaScript, ASP.NET MVC, .NET Core, and Framework.</li>
-                <li>Database & Version Control: Advanced knowledge of Transact-SQL (T-SQL), PL/SQL, Git, and GitLab.</li>
-                <li>Development Tools: Proficient with Entity Framework, Visual Studio, and ASP.NET Web API.</li>
-                <li>Cloud Computing: Practical experience with Amazon Web Services (AWS).</li>
-                <li>Cloud Computing and DevOps: Experience with Amazon Web Services (AWS) and Azure DevOps, Proficient in Continuous Integration/Continuous Deployment (CI/CD) practices.</li>
-                <li>Web Development: Expertise in MVC architecture, Proficient in using JSON and XML for data interchange.</li>
-                <li>Software Development Principles: Knowledge of Solid principles in software design.</li>
+        <section>
+    <h2>Skills</h2>
+    <ul>
+        <li><strong>API and Web Application Development:</strong> Expert in creating RESTful APIs and web applications using C# and .NET.</li>
+        <li><strong>Database Management:</strong> Proficient in SQL routine maintenance and adept in optimizing .NET Core and Framework systems.</li>
+        <li><strong>Testing and Quality Assurance:</strong> Skilled in unit testing with xUnit/nUnit and Moq/NSubstitute.</li>
+        <li><strong>Agile Project Management:</strong> Practiced in employing Scrum methodology.</li>
+              <li><strong>Software Architecture:</strong> Proficient in designing scalable and efficient software architectures, with a focus on .NET applications.</li>
+
+      <br>
+        <li><strong>Technical Proficiencies:</strong>
+            <ol>
+                <li><strong>Languages & Frameworks:</strong> Mastery of C#, JavaScript, ASP.NET MVC, .NET Core, and Framework.</li>
+                <li><strong>Database & Version Control:</strong> Advanced knowledge of Transact-SQL (T-SQL), PL/SQL, Git, and GitLab.</li>
+                <li><strong>Development Tools:</strong> Proficient with Entity Framework, Visual Studio, and ASP.NET Web API.</li>
+              
+                <li><strong>Cloud Computing and DevOps:</strong> Experience with Amazon Web Services (AWS) and Azure DevOps, Proficient in Continuous Integration/Continuous Deployment (CI/CD) practices.</li>
+                <li><strong>Web Development:</strong> Expertise in MVC architecture, Proficient in using JSON and XML for data interchange.</li>
+                <li><strong>Software Development Principles:</strong> Software Development Principles: Deep understanding of best practices in software design and architecture, emphasizing clean, maintainable, and scalable code.</li>
             </ul>
-        </div>
+        </li>
+    </ul>
+</section>
+
     </div>
 </body>
 </html>
